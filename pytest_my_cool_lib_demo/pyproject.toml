@@ -1,8 +1,8 @@
 [tool.poetry]
-name = "my-cool-lib"
+name = "pytest-my-cool-lib"
 version = "0.1.2"
 description = ""
-authors = ["maksym.biriukov <maksym.biriukov@robovision.eu>"]
+authors = ["maksym.biriukov <maksym.biriukov@eleks.com>"]
 readme = "README.md"
 
 [tool.poetry.dependencies]
