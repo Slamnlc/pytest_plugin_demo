@@ -1,12 +1,13 @@
 [tool.poetry]
 name = "my-cool-lib"
-version = "0.1.0"
+version = "0.1.1"
 description = ""
 authors = ["maksym.biriukov <maksym.biriukov@robovision.eu>"]
 readme = "README.md"
 
 [tool.poetry.dependencies]
 python = "^3.8"
+pytest = "^7.1.3"
 
 [tool.poetry.plugins.pytest11]
 export_plugin = "my_cool_lib.export_result_plugin"
